@@ -1,0 +1,18 @@
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\Data\bin\Debug\netstandard2.1\Data.deps.json
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\Data\bin\Debug\netstandard2.1\Data.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\Data\bin\Debug\netstandard2.1\Data.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\Data\obj\Debug\netstandard2.1\Data.csprojAssemblyReference.cache
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\Data\obj\Debug\netstandard2.1\Data.AssemblyInfoInputs.cache
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\Data\obj\Debug\netstandard2.1\Data.AssemblyInfo.cs
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\Data\obj\Debug\netstandard2.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\Data\obj\Debug\netstandard2.1\Data.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\Data\obj\Debug\netstandard2.1\Data.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\Data\bin\Debug\netstandard2.1\Data.deps.json
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\Data\bin\Debug\netstandard2.1\Data.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\Data\bin\Debug\netstandard2.1\Data.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\Data\obj\Debug\netstandard2.1\Data.csprojAssemblyReference.cache
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\Data\obj\Debug\netstandard2.1\Data.AssemblyInfoInputs.cache
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\Data\obj\Debug\netstandard2.1\Data.AssemblyInfo.cs
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\Data\obj\Debug\netstandard2.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\Data\obj\Debug\netstandard2.1\Data.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\Data\obj\Debug\netstandard2.1\Data.pdb

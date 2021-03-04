@@ -1,0 +1,215 @@
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.exe
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.deps.json
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.runtimeconfig.json
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.runtimeconfig.dev.json
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.pdb
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\CryptoHelper.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.csprojAssemblyReference.cache
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.AssemblyInfoInputs.cache
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.AssemblyInfo.cs
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.csproj.CoreCompileInputs.cache
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\obj\Debug\netcoreapp3.1\staticwebassets\PizzonApi.StaticWebAssets.Manifest.cache
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\obj\Debug\netcoreapp3.1\staticwebassets\PizzonApi.StaticWebAssets.xml
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\PizzonApi.styles.css
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.RazorTargetAssemblyInfo.cache
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.csproj.CopyComplete
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.dll
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.pdb
+C:\Users\Kamil\Desktop\PizzonApi\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.genruntimeconfig.cache
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.csprojAssemblyReference.cache
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.AssemblyInfoInputs.cache
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.AssemblyInfo.cs
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.csproj.CoreCompileInputs.cache
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.exe
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.deps.json
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.runtimeconfig.json
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.runtimeconfig.dev.json
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\CryptoHelper.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\staticwebassets\PizzonApi.StaticWebAssets.Manifest.cache
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\staticwebassets\PizzonApi.StaticWebAssets.xml
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\PizzonApi.styles.css
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.RazorTargetAssemblyInfo.cache
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.csproj.CopyComplete
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.dll
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.genruntimeconfig.cache
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.exe
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.deps.json
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.runtimeconfig.json
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.runtimeconfig.dev.json
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\PizzonApi.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\CryptoHelper.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.csprojAssemblyReference.cache
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.AssemblyInfoInputs.cache
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.AssemblyInfo.cs
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.csproj.CoreCompileInputs.cache
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\staticwebassets\PizzonApi.StaticWebAssets.Manifest.cache
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\staticwebassets\PizzonApi.StaticWebAssets.xml
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\PizzonApi.styles.css
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.RazorTargetAssemblyInfo.cache
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.csproj.CopyComplete
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.pdb
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.genruntimeconfig.cache
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
+C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.MvcApplicationPartsAssemblyInfo.cs
