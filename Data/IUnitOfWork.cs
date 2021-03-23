@@ -8,6 +8,7 @@ namespace Data
         IBannerRepository Banner { get; }
         IProductRepository Product { get; }
         IAssociateRepository Associate { get; }
+        IBlogRepository Blogs { get; }
         Task<int> CommitAsync();
     }
 }

@@ -16,6 +16,8 @@ namespace PizzonApi.Mapping
                 .ForMember(p => p.PhotoUrl, opt => opt.MapFrom(src => src.PhotoUrl))
                 .ForMember(d => d.Price, opt => opt.MapFrom(src => src.Stock.Price));
             CreateMap<Associate, AssociateResouce>()
+                .ForMember(p => p.PhotoUrl, opt => opt.MapFrom(src => src.PhotoUrl)); 
+            CreateMap<Blog, BlogResouce>()
                 .ForMember(p => p.PhotoUrl, opt => opt.MapFrom(src => src.PhotoUrl));
         }
     }

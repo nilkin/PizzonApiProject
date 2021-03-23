@@ -32,6 +32,8 @@ namespace PizzonApi.Controllers.V1
             _cloudinaryConfig.Value.ApiSecret);
             _cloudinary = new Cloudinary(account);
         }
+
+        // V1/home/isBanner
         [Route("isBanner")]
         [HttpGet]
         public async Task<IActionResult> GetIsBannerAsync()
@@ -41,6 +43,8 @@ namespace PizzonApi.Controllers.V1
             var isBannerResources = _mapper.Map<IEnumerable<Banner>, IEnumerable<BannerResource>>(isBanners);
             return Ok(isBannerResources);
         }
+
+        // V1/home/isService
         [Route("isService")]
         [HttpGet]
         public async Task<IActionResult> GetIsServiceAsync()
@@ -49,7 +53,9 @@ namespace PizzonApi.Controllers.V1
             if (isService == null) return BadRequest("Could not find");
             var isServiceResources = _mapper.Map<IEnumerable<Banner>, IEnumerable<BannerResource>>(isService);
             return Ok(isServiceResources);
-        }     
+        }
+
+        // V1/home/isPromo
         [Route("isPromo")]
         [HttpGet]
         public async Task<IActionResult> GetIsPromoAsync()
@@ -59,8 +65,10 @@ namespace PizzonApi.Controllers.V1
             var isPromoResources = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductPromoResource>>(isPromo);
             return Ok(isPromoResources);
         }
+        // V1/home/Catalogue
         [Route("Catalogue")]
         [HttpGet]
+        
         public async Task<IActionResult> GetCatalogueAsync([FromQuery] int categoryId)
         {
             var catalogue = await _unitOfWork.Product.GetCatalogueAsync(categoryId); 
@@ -68,6 +76,7 @@ namespace PizzonApi.Controllers.V1
             var category = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductCategoryResource>>(catalogue);
             return Ok(category);
         }
+        //  V1/home/Associate
         [Route("Associate")]
         [HttpGet]
         public async Task<IActionResult> GetAssociatesAsync()
@@ -77,5 +86,18 @@ namespace PizzonApi.Controllers.V1
             var chef = _mapper.Map<IEnumerable<Associate>, IEnumerable<AssociateResouce>>(chefs);
             return Ok(chef);
         }
+
+        //  V1/home/News
+        [Route("News")]
+        [HttpGet]
+        public async Task<IActionResult> GetNewsAsync()
+        {
+            var news = await _unitOfWork.Blogs.GetIsNewAsync();
+            if (news == null)   return BadRequest("Could not find");
+            var isNews = _mapper.Map<IEnumerable<Blog>, IEnumerable<BlogResouce>>(news);
+            return Ok(isNews);
+        }
+
+
     }
 }
