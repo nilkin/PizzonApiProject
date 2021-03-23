@@ -68,5 +68,14 @@ namespace PizzonApi.Controllers.V1
             var category = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductCategoryResource>>(catalogue);
             return Ok(category);
         }
+        [Route("Associate")]
+        [HttpGet]
+        public async Task<IActionResult> GetAssociatesAsync()
+        {
+            var chefs = await _unitOfWork.Associate.GetAllAsync();
+            if (chefs == null) return BadRequest("Could not find");
+            var chef = _mapper.Map<IEnumerable<Associate>, IEnumerable<AssociateResouce>>(chefs);
+            return Ok(chef);
+        }
     }
 }

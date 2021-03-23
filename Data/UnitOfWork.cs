@@ -10,6 +10,7 @@ namespace Data
         private readonly PizzonDbContext _context;
         private readonly BannerRepository _bannerRepository;
         private readonly ProductRepository _productRepository;
+        private readonly AssociateRepository _associateRepository;
 
         public UnitOfWork(PizzonDbContext context)
         {
@@ -17,6 +18,7 @@ namespace Data
         }
         public IBannerRepository Banner => _bannerRepository ?? new BannerRepository(_context);
         public IProductRepository Product => _productRepository ?? new ProductRepository(_context);
+        public IAssociateRepository Associate => _associateRepository ?? new AssociateRepository(_context);
 
         public async Task<int> CommitAsync()
         {

@@ -213,3 +213,4 @@ C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreap
 C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.genruntimeconfig.cache
 C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
 C:\Users\n_ilkin\OneDrive\Desktop\PizzonApiProject\PizzonApi\obj\Debug\netcoreapp3.1\PizzonApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\n_ilkin\OneDrive\Desktop\my Code\PizzonApiProject\PizzonApi\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll

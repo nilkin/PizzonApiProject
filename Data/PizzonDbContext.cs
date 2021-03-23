@@ -6,7 +6,6 @@ using System;
 
 namespace Data
 {
-
     //dotnet ef --startup-project.\PizzonApi\PizzonApi.csproj migrations add ProductSchema -p.\Data\Data.csproj
     //dotnet ef --startup-project.\PizzonApi\PizzonApi.csproj database update -p.\Data\Data.csproj
     //dotnet ef migrations add addedTableName -s solutionName -p projectName

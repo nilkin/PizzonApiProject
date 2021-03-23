@@ -7169,22 +7169,25 @@
   },
   "packageFolders": {
     "C:\\Users\\n_ilkin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\n_ilkin\\OneDrive\\Desktop\\PizzonApiProject\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\n_ilkin\\OneDrive\\Desktop\\my Code\\PizzonApiProject\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\n_ilkin\\OneDrive\\Desktop\\PizzonApiProject\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\n_ilkin\\OneDrive\\Desktop\\my Code\\PizzonApiProject\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\n_ilkin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\n_ilkin\\OneDrive\\Desktop\\PizzonApiProject\\Data\\obj\\",
+      "outputPath": "C:\\Users\\n_ilkin\\OneDrive\\Desktop\\my Code\\PizzonApiProject\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\n_ilkin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7244,7 +7247,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

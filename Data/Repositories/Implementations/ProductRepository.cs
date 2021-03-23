@@ -18,7 +18,7 @@ namespace Data.Repositories.Implementations
             return await _context.Products
                 .Include(p => p.Stock)
                 .Include(c => c.Category)
-                .Where(c =>c.CategoryId == categoryId).Take(6).ToListAsync();
+                .Where(c =>c.CategoryId == categoryId&& c.IsPromo==false).Take(6).ToListAsync();
         }
 
         public async Task<IEnumerable<Product>> GetIsPromoAsync()
