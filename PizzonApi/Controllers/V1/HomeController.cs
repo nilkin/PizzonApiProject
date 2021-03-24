@@ -20,8 +20,8 @@ namespace PizzonApi.Controllers.V1
         private readonly IOptions<CloudinarySettings> _cloudinaryConfig;
         private readonly Cloudinary _cloudinary;
         public HomeController(
-            IUnitOfWork unitOfWork, 
-            IMapper mapper, 
+            IUnitOfWork unitOfWork,
+            IMapper mapper,
             IOptions<CloudinarySettings> cloudinaryConfig)
         {
             _unitOfWork = unitOfWork;
@@ -39,7 +39,7 @@ namespace PizzonApi.Controllers.V1
         public async Task<IActionResult> GetIsBannerAsync()
         {
             var isBanners = await _unitOfWork.Banner.GetIsBannerAsync();
-            if (isBanners == null) return BadRequest("Could not find");
+            if (isBanners == null) return NotFound("Could not find");
             var isBannerResources = _mapper.Map<IEnumerable<Banner>, IEnumerable<BannerResource>>(isBanners);
             return Ok(isBannerResources);
         }
@@ -50,7 +50,7 @@ namespace PizzonApi.Controllers.V1
         public async Task<IActionResult> GetIsServiceAsync()
         {
             var isService = await _unitOfWork.Banner.GetIsServiceAsync();
-            if (isService == null) return BadRequest("Could not find");
+            if (isService == null) return NotFound("Could not find");
             var isServiceResources = _mapper.Map<IEnumerable<Banner>, IEnumerable<BannerResource>>(isService);
             return Ok(isServiceResources);
         }
@@ -61,18 +61,18 @@ namespace PizzonApi.Controllers.V1
         public async Task<IActionResult> GetIsPromoAsync()
         {
             var isPromo = await _unitOfWork.Product.GetIsPromoAsync();
-            if (isPromo == null) return BadRequest("Could not find");
+            if (isPromo == null) return NotFound("Could not find");
             var isPromoResources = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductPromoResource>>(isPromo);
             return Ok(isPromoResources);
         }
         // V1/home/Catalogue
         [Route("Catalogue")]
         [HttpGet]
-        
+
         public async Task<IActionResult> GetCatalogueAsync([FromQuery] int categoryId)
         {
-            var catalogue = await _unitOfWork.Product.GetCatalogueAsync(categoryId); 
-            if (catalogue == null) return BadRequest("Could not find");
+            var catalogue = await _unitOfWork.Product.GetCatalogueAsync(categoryId);
+            if (catalogue == null) return NotFound("Could not find");
             var category = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductCategoryResource>>(catalogue);
             return Ok(category);
         }
@@ -81,10 +81,10 @@ namespace PizzonApi.Controllers.V1
         [HttpGet]
         public async Task<IActionResult> GetAssociatesAsync()
         {
-            var chefs = await _unitOfWork.Associate.GetAllAsync();
-            if (chefs == null) return BadRequest("Could not find");
-            var chef = _mapper.Map<IEnumerable<Associate>, IEnumerable<AssociateResouce>>(chefs);
-            return Ok(chef);
+            var chef = await _unitOfWork.Associate.GetAllAsync();
+            if (chef == null) return NotFound("Could not find");
+            var chefs = _mapper.Map<IEnumerable<Associate>, IEnumerable<AssociateResouce>>(chef);
+            return Ok(chefs);
         }
 
         //  V1/home/News
@@ -93,11 +93,31 @@ namespace PizzonApi.Controllers.V1
         public async Task<IActionResult> GetNewsAsync()
         {
             var news = await _unitOfWork.Blogs.GetIsNewAsync();
-            if (news == null)   return BadRequest("Could not find");
+            if (news == null) return NotFound("Could not find");
             var isNews = _mapper.Map<IEnumerable<Blog>, IEnumerable<BlogResouce>>(news);
             return Ok(isNews);
         }
 
+        //  V1/home/Customers
+        [Route("Customers")]
+        [HttpGet]
+        public async Task<IActionResult> GetCustomersAsync()
+        {
+            var customer = await _unitOfWork.Testimonials.GetAllAsync();
+            if (customer == null) return NotFound("Could not find");
+            var customers = _mapper.Map<IEnumerable<Testimonial>, IEnumerable<TestimonialResouce>>(customer);
+            return Ok(customers);
+        }
+        //  V1/home/About
+        //[Route("About")]
+        //[HttpGet]
+        //public async Task<IActionResult> GetAboutAsync()
+        //{
+        //    var about = await _unitOfWork.Abouts.GetAboutAsync();
+        //    if (about == null) return NotFound("Could not find");
+        //    var abouts = _mapper.Map<IEnumerable<AboutUs>, IEnumerable<AboutUsResouce>>(about);
 
+        //    return Ok(abouts);
+        //}
     }
 }
