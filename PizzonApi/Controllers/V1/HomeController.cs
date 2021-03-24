@@ -18,7 +18,7 @@ namespace PizzonApi.Controllers.V1
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly IOptions<CloudinarySettings> _cloudinaryConfig;
-        private readonly Cloudinary _cloudinary;
+        //private readonly Cloudinary _cloudinary;
         public HomeController(
             IUnitOfWork unitOfWork,
             IMapper mapper,
@@ -30,7 +30,7 @@ namespace PizzonApi.Controllers.V1
             Account account = new Account(_cloudinaryConfig.Value.CloudName,
             _cloudinaryConfig.Value.ApiKey,
             _cloudinaryConfig.Value.ApiSecret);
-            _cloudinary = new Cloudinary(account);
+            //_cloudinary = new Cloudinary(account);
         }
 
         // V1/home/isBanner
@@ -109,15 +109,14 @@ namespace PizzonApi.Controllers.V1
             return Ok(customers);
         }
         //  V1/home/About
-        //[Route("About")]
-        //[HttpGet]
-        //public async Task<IActionResult> GetAboutAsync()
-        //{
-        //    var about = await _unitOfWork.Abouts.GetAboutAsync();
-        //    if (about == null) return NotFound("Could not find");
-        //    var abouts = _mapper.Map<IEnumerable<AboutUs>, IEnumerable<AboutUsResouce>>(about);
-
-        //    return Ok(abouts);
-        //}
+        [Route("About")]
+        [HttpGet]
+        public async Task<IActionResult> GetAboutAsync()
+        {
+            var about = await _unitOfWork.Abouts.SingleOrDefaultAsync(c=>c.IsHome);
+            if (about == null) return NotFound("Could not find");
+            var abouts = _mapper.Map<AboutUs, AboutUsResouce>(about);
+            return Ok(abouts);
+        }
     }
 }

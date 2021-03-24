@@ -8,6 +8,5 @@ namespace Data.Repositories.Interfaces
 {
     public interface IAboutUsRepository : IRepository<AboutUs>
     {
-        //Task<IEnumerable<AboutUs>> GetAboutAsync();
     }
 }

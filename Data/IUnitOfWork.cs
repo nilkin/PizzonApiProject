@@ -11,7 +11,6 @@ namespace Data
         IBlogRepository Blogs { get; }
         ITestimonialRepository Testimonials { get; }
         IAboutUsRepository Abouts { get; }
-
         Task<int> CommitAsync();
     }
 }
