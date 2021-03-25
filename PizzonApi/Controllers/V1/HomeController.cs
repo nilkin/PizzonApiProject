@@ -27,9 +27,9 @@ namespace PizzonApi.Controllers.V1
             _unitOfWork = unitOfWork;
             _mapper = mapper;
             _cloudinaryConfig = cloudinaryConfig;
-            Account account = new Account(_cloudinaryConfig.Value.CloudName,
-            _cloudinaryConfig.Value.ApiKey,
-            _cloudinaryConfig.Value.ApiSecret);
+            //Account account = new Account(_cloudinaryConfig.Value.CloudName,
+            //_cloudinaryConfig.Value.ApiKey,
+            //_cloudinaryConfig.Value.ApiSecret);
             //_cloudinary = new Cloudinary(account);
         }
 

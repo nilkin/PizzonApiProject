@@ -15,19 +15,16 @@ namespace Data.Configurations
                 ValueGeneratedOnAdd();
             builder.
                 Property(c => c.BookDate).
-                HasColumnType("date").
-                IsRequired();
+                HasColumnType("date");
             builder.
                 Property(c => c.BookTime).
-                HasColumnType("date").
-                IsRequired();
+                HasColumnType("date");
             builder.
                 Property(c => c.PeopleCount).
                 IsRequired();
             builder.
                 Property(c => c.PhoneNumber).
-                HasMaxLength(100).
-                IsRequired();
+                HasMaxLength(100);
             builder.
                 Property(c => c.Fullname).
                 HasMaxLength(100).
@@ -38,8 +35,8 @@ namespace Data.Configurations
                 IsRequired();
             builder.
                 Property(c => c.Comment).
-                HasMaxLength(500);
-
+                HasMaxLength(600).
+                HasColumnType("ntext");
             builder.
                 ToTable("Reservations");
 
