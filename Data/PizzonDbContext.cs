@@ -31,6 +31,7 @@ namespace Data
             builder.ApplyConfiguration(new Categoryfiguration());
             builder.ApplyConfiguration(new ProductConfiguration());
             builder.ApplyConfiguration(new ReviewConfiguration());
+            builder.ApplyConfiguration(new ReservationConfiguration());
             builder.ApplyConfiguration(new SettingConfiguration());
             builder.ApplyConfiguration(new SocialLinkConfiguration());
             builder.ApplyConfiguration(new TestimonialConfiguration());
