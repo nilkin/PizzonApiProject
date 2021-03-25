@@ -15,7 +15,7 @@ namespace Data.Configurations
                 ValueGeneratedOnAdd();
             builder.
                 Property(c => c.Fullname).
-                HasMaxLength(100).
+                HasMaxLength(50).
                 IsRequired();
             builder.
                 Property(c => c.PhotoUrl).
@@ -23,11 +23,12 @@ namespace Data.Configurations
                 IsRequired();
             builder.
                 Property(c => c.Position).
-                HasMaxLength(100).
+                HasMaxLength(50).
                 IsRequired();
             builder.
                 Property(c => c.Thought).
-                HasMaxLength(500).
+                HasMaxLength(600).
+                HasColumnType("ntext").
                 IsRequired();
 
             builder.

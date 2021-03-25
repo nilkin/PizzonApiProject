@@ -15,23 +15,25 @@ namespace Data.Configurations
                 ValueGeneratedOnAdd();
             builder.
                 Property(c => c.BookDate).
-                HasColumnType("date");
+                HasColumnType("date").
+                IsRequired();
             builder.
                 Property(c => c.BookTime).
                 HasColumnType("date");
             builder.
                 Property(c => c.PeopleCount).
+                HasMaxLength(10).
                 IsRequired();
             builder.
                 Property(c => c.PhoneNumber).
-                HasMaxLength(100);
+                HasMaxLength(18);
             builder.
                 Property(c => c.Fullname).
-                HasMaxLength(100).
+                HasMaxLength(50).
                 IsRequired();
             builder.
                 Property(c => c.Email).
-                HasMaxLength(100).
+                HasMaxLength(60).
                 IsRequired();
             builder.
                 Property(c => c.Comment).

@@ -22,17 +22,15 @@ namespace Data.Configurations
                 IsRequired();
             builder.
                 Property(c => c.Name).
-                HasMaxLength(100).
+                HasMaxLength(50).
                 IsRequired();
             builder.
                 Property(c => c.Position).
-                HasMaxLength(100).
+                HasMaxLength(60).
                 IsRequired();
 
             builder.
                 ToTable("Associates");
-
-
         }
     }
 }

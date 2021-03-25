@@ -17,7 +17,7 @@ namespace PizzonApi.Controllers.V1
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        private readonly IOptions<CloudinarySettings> _cloudinaryConfig;
+        //private readonly IOptions<CloudinarySettings> _cloudinaryConfig;
         //private readonly Cloudinary _cloudinary;
         public HomeController(
             IUnitOfWork unitOfWork,
@@ -26,7 +26,7 @@ namespace PizzonApi.Controllers.V1
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
-            _cloudinaryConfig = cloudinaryConfig;
+            //_cloudinaryConfig = cloudinaryConfig;
             //Account account = new Account(_cloudinaryConfig.Value.CloudName,
             //_cloudinaryConfig.Value.ApiKey,
             //_cloudinaryConfig.Value.ApiSecret);

@@ -18,8 +18,9 @@ namespace Data.Configurations
                 HasMaxLength(100).
                 IsRequired();
             builder.
-                Property(c => c.Description).
-                HasMaxLength(500);
+                Property(c => c.Description)
+                .HasColumnType("ntext")
+                .HasMaxLength(600);
             builder.
                 Property(c => c.IsHome).
                 HasDefaultValue(false);
