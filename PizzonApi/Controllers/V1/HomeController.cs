@@ -83,7 +83,7 @@ namespace PizzonApi.Controllers.V1
         {
             var chef = await _unitOfWork.Associate.GetAllAsync();
             if (chef == null) return NotFound("Could not find");
-            var chefs = _mapper.Map<IEnumerable<Associate>, IEnumerable<AssociateResouce>>(chef);
+            var chefs = _mapper.Map<IEnumerable<Associate>, IEnumerable<AssociateResource>>(chef);
             return Ok(chefs);
         }
 
@@ -94,7 +94,7 @@ namespace PizzonApi.Controllers.V1
         {
             var news = await _unitOfWork.Blogs.GetIsNewAsync();
             if (news == null) return NotFound("Could not find");
-            var isNews = _mapper.Map<IEnumerable<Blog>, IEnumerable<BlogResouce>>(news);
+            var isNews = _mapper.Map<IEnumerable<Blog>, IEnumerable<BlogResource>>(news);
             return Ok(isNews);
         }
 
@@ -105,7 +105,7 @@ namespace PizzonApi.Controllers.V1
         {
             var customer = await _unitOfWork.Testimonials.GetAllAsync();
             if (customer == null) return NotFound("Could not find");
-            var customers = _mapper.Map<IEnumerable<Testimonial>, IEnumerable<TestimonialResouce>>(customer);
+            var customers = _mapper.Map<IEnumerable<Testimonial>, IEnumerable<TestimonialResource>>(customer);
             return Ok(customers);
         }
         //  V1/home/About
@@ -115,8 +115,21 @@ namespace PizzonApi.Controllers.V1
         {
             var about = await _unitOfWork.Abouts.SingleOrDefaultAsync(c=>c.IsHome);
             if (about == null) return NotFound("Could not find");
-            var abouts = _mapper.Map<AboutUs, AboutUsResouce>(about);
+            var abouts = _mapper.Map<AboutUs, AboutUsResource>(about);
             return Ok(abouts);
+        }
+
+        //  V1/home/reservation
+        [Route("Reservation")]
+        [HttpPost]
+        public async Task<IActionResult> AddReservationAsync([FromBody] ReservationResource resource)
+        {
+            if (!ModelState.IsValid) return BadRequest("some inputs is not valid");
+            var reserv = _mapper.Map<ReservationResource, Reservation>(resource);
+            await _unitOfWork.Reservations.AddAsync(reserv);
+            await _unitOfWork.CommitAsync();
+            var reserved = _mapper.Map<Reservation, ReservationResource>(reserv);
+            return Ok(reserved);
         }
     }
 }

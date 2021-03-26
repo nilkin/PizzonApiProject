@@ -14,6 +14,7 @@ namespace Data
         private readonly BlogRepository _blogRepository;
         private readonly TestimonialRepository _testimonialRepository;
         private readonly AboutUsRepository _aboutUsRepository;
+        private readonly ReservationRepository _reservationRepository;
 
         public UnitOfWork(PizzonDbContext context)
         {
@@ -25,6 +26,7 @@ namespace Data
         public IBlogRepository Blogs => _blogRepository ?? new BlogRepository(_context);
         public ITestimonialRepository Testimonials => _testimonialRepository ?? new TestimonialRepository(_context);
         public IAboutUsRepository Abouts => _aboutUsRepository ?? new AboutUsRepository(_context);
+        public IReservationRepository Reservations => _reservationRepository ?? new ReservationRepository(_context);
 
         public async Task<int> CommitAsync()
         {

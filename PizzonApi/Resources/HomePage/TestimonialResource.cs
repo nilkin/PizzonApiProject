@@ -5,9 +5,11 @@ using System.Threading.Tasks;
 
 namespace PizzonApi.Resources.HomePage
 {
-    public class AboutUsResouce
+    public class TestimonialResource
     {
+        public string Fullname { get; set; }
+        public string Position { get; set; }
         public string PhotoUrl { get; set; }
-        public string Description { get; set; }
+        public string Thought { get; set; }
     }
 }

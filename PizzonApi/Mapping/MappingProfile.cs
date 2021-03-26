@@ -15,12 +15,14 @@ namespace PizzonApi.Mapping
             CreateMap<Product, ProductCategoryResource>()
                 .ForMember(p => p.PhotoUrl, opt => opt.MapFrom(src => src.PhotoUrl))
                 .ForMember(d => d.Price, opt => opt.MapFrom(src => src.Stock.Price));
-            CreateMap<Associate, AssociateResouce>()
+            CreateMap<Associate, AssociateResource>()
                 .ForMember(p => p.PhotoUrl, opt => opt.MapFrom(src => src.PhotoUrl)); 
-            CreateMap<Blog, BlogResouce>()
+            CreateMap<Blog, BlogResource>()
                 .ForMember(p => p.PhotoUrl, opt => opt.MapFrom(src => src.PhotoUrl));
-            CreateMap<AboutUs, AboutUsResouce>()
+            CreateMap<AboutUs, AboutUsResource>()
                 .ForMember(p => p.PhotoUrl, opt => opt.MapFrom(src => src.PhotoUrl));
+            CreateMap<Reservation, ReservationResource>();
+            CreateMap<ReservationResource, Reservation>();
         }
     }
 }

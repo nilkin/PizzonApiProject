@@ -1,7 +1,7 @@
 ﻿
 namespace PizzonApi.Resources.HomePage
 {
-    public class AssociateResouce
+    public class AssociateResource
     {
         public string Name { get; set; }
         public string Position { get; set; }

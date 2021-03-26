@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PizzonApi.Resources.HomePage
 {
-    public class BlogResouce
+    public class BlogResource
     {
         public string Name { get; set; }
         public string Author { get; set; }
