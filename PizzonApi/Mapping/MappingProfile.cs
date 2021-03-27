@@ -4,7 +4,7 @@ using PizzonApi.Resources.HomePage;
 
 namespace PizzonApi.Mapping
 {
-    public class MappingProfile : Profile
+    public class MappingProfile : Profile 
     {
         public MappingProfile()
         {

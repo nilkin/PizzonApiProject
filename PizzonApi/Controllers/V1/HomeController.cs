@@ -7,6 +7,7 @@ using Microsoft.Extensions.Options;
 using PizzonApi.Helpers;
 using PizzonApi.Resources.HomePage;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace PizzonApi.Controllers.V1
@@ -17,13 +18,16 @@ namespace PizzonApi.Controllers.V1
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
+        private readonly PizzonDbContext _context;
         //private readonly IOptions<CloudinarySettings> _cloudinaryConfig;
         //private readonly Cloudinary _cloudinary;
         public HomeController(
+            PizzonDbContext context,
             IUnitOfWork unitOfWork,
             IMapper mapper,
             IOptions<CloudinarySettings> cloudinaryConfig)
         {
+            _context = context;
             _unitOfWork = unitOfWork;
             _mapper = mapper;
             //_cloudinaryConfig = cloudinaryConfig;
@@ -125,6 +129,13 @@ namespace PizzonApi.Controllers.V1
         public async Task<IActionResult> AddReservationAsync([FromBody] ReservationResource resource)
         {
             if (!ModelState.IsValid) return BadRequest("some inputs is not valid");
+            
+            if (_context.Reservations.Any(u => u.Email == resource.Email))
+             return Conflict(new
+            {
+                message = "This reservation has been booked"
+            });
+       
             var reserv = _mapper.Map<ReservationResource, Reservation>(resource);
             await _unitOfWork.Reservations.AddAsync(reserv);
             await _unitOfWork.CommitAsync();
@@ -133,3 +144,4 @@ namespace PizzonApi.Controllers.V1
         }
     }
 }
+ 
