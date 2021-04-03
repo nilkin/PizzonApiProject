@@ -3,6 +3,7 @@ using CloudinaryDotNet;
 using Data;
 using Data.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using PizzonApi.Helpers;
 using PizzonApi.Resources.HomePage;
@@ -18,7 +19,6 @@ namespace PizzonApi.Controllers.V1
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        private readonly PizzonDbContext _context;
         //private readonly IOptions<CloudinarySettings> _cloudinaryConfig;
         //private readonly Cloudinary _cloudinary;
         public HomeController(
@@ -27,7 +27,6 @@ namespace PizzonApi.Controllers.V1
             IMapper mapper,
             IOptions<CloudinarySettings> cloudinaryConfig)
         {
-            _context = context;
             _unitOfWork = unitOfWork;
             _mapper = mapper;
             //_cloudinaryConfig = cloudinaryConfig;
@@ -130,7 +129,7 @@ namespace PizzonApi.Controllers.V1
         {
             if (!ModelState.IsValid) return BadRequest("some inputs is not valid");
             
-            if (_context.Reservations.Any(u => u.Email == resource.Email))
+            if (await _unitOfWork.Reservations.AnyAsync(resource.Email))
              return Conflict(new
             {
                 message = "This reservation has been booked"

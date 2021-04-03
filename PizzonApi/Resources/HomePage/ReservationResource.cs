@@ -13,7 +13,7 @@ namespace PizzonApi.Resources.HomePage
         public DateTime BookDate { get; set; }
         [Required(ErrorMessage = "Please enter people count")]
         public int PeopleCount { get; set; }
-        [Required(ErrorMessage = "Please Enter you Name")]
+        [Required(ErrorMessage = "Please Enter you Full Name")]
         [MaxLength(50)]
         public string Fullname { get; set; }
         [Required(ErrorMessage = "Please Enter your Email")]
